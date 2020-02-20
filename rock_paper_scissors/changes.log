@@ -1,0 +1,24 @@
+RockPaperScissors.py 2/18/14 - 9/13/14
+Original version
+********************************************************************************
+RockPaperScissors2.py 2/20/14 - 3/1/14
+Unfinished version??
+	I'm not sure what happened here. On 2/10/20 I merely glanced at the code,
+	then gave up looking at it for now. Remember, I am relearning Python at the
+	moment.
+********************************************************************************
+RockPaperScissors3.py 2/10/20
+Cleaned up code from version 1. Version 2 seems to be something I forgot about.
+Added intro()
+Added game_rules() 
+	Empty at the moment. To be filled in soon.
+Changed function names from camelCase to under_score to differentiate between 
+functions and variables.
+Added gamesLost and GamesTied variables to keep track of lost, tied games.
+Got rid of a redundant print() in type_in_move()
+	Consolidated input() to input().lower() reducing another line of code
+removed multiple empty print(). using \n instead
+Cleaned up the display of statistics, including accounting for pluralization.
+e.g. 'You won 1 game' vs 'You won 1 games.'
+Stats now shows how many games played, lost, won, and is updated on each round.
+********************************************************************************

@@ -1,0 +1,32 @@
+#CREATED: 2/11/20
+#MODIFIED: 2/13/20
+# This file list possible variations of Rock, Paper, Scissors to possibly create
+# Also listed are other uses for the code, such as reusing it as part of another
+game.
+********************************************************************************
+2/11/20-
+	* Every 5 games the computer always chooses paper.
+	Use this in testing. Without seeing the code, can players spot a pattern in
+	the choices the computer makes?
+	This is also a potentially good exercise in AI and ALGORITHM development.
+	
+2/13/20- 
+	* Clue/whodoneit
+		Display to the player, a lsit of possible weapons, rooms, and suspects.
+		The computer randomly chooses one of each, and the user has to guess
+		what the computer is holding.
+		If the player guesses one of the three items, let them know. Except on
+		hardest difficulty level.
+		Give the user points. The fewer guesses the greater the points.
+			Mabye start out with 100 points for the first guess. If wrong,
+			second guess is worth 90 points, etc.
+		Build in a hint system
+		Add a hall of fame
+		
+	* Guess the color
+		Out of Red, Green, Blue, user guesses the computer's color.
+		Modify R,P,S:
+			RPS  tied = RGB user wins
+			RPS lose = stays the same
+			RPS win, we get rid of. e.g.: user picks green, computer had blue.
+			colors cannot beat each other, thus this code not needed.
